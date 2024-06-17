@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Forum&family=M+PLUS+1p&display=swap');
+
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.header {
+background-color: #FFF7F3;
+border: 1px solid black;
+padding: 1rem 3rem;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.menu {
+    font-family: "M PLUS 1p", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    list-style-type: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.hero {
+    height: 100vh;
+    background-image: url(../Img/Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.hero-content {
+    /*backdrop-filter: blur(4px);*/
+}
+
+.hero-title {
+    width:50%;
+    color: #FFF7F3;
+    font-family: "Forum", serif;
+    font-weight: 400;
+    font-size: 6rem;
+    margin-bottom: 10px;
+
+}
+
+.hero-text {
+    width: 50%;
+    color: #FFF7F3;
+    font-family: "M PLUS 1p", sans-serif;
+    
+}
+
+.footer {
+    background-color: #FFF7F3;
+    font-family: "M PLUS 1p", sans-serif;
+    font-size: 14px;
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    padding: 1rem 1rem 1rem 4rem ;
+    border: 1px solid black;
+}
+
+/*-------------------------- ABOUT -------------------------- */
+
+.about {
+    background-color: #FFF7F3;
+    height: 100% vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.about-content {
+    width: 80%;
+    background-color: #FFF7F3;
+    padding: 2rem;
+    /*backdrop-filter: blur(4px);*/
+    padding: 100px;
+}
+
+.about-title {
+    width: 80%;
+    font-family: "Forum", serif;
+    font-weight: 400;
+    font-size: 6rem;
+
+}
+
+.about-text {
+    font-family: "M PLUS 1p", sans-serif;
+}
+
+.image-about {
+    width: 50%;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+
+.brand {
+    background-color: #FFF0E2;
+    height: 100% vh;
+    margin: 50px;
+    border: 1px solid black;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.brand-content-1 {
+    padding: 30px;
+    border-right: 1px solid black;
+
+}
+
+.colombia-title {
+    font-family: "Forum", serif;
+    font-weight: 400;
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.colombia-text {
+    display: grid;
+    font-family: "M PLUS 1p", sans-serif;
+    font-size: 0.8rem;
+}
+
+.brand-content-2 {
+    display: grid;
+    justify-content: center;
+    align-items: center; 
+}
+
+.brand-content-3 {
+    display: grid;
+    padding: 30px;
+    border-left: 1px solid black;
+
+}
+
+.numbers-title {
+    font-family: "Forum", serif;
+    font-weight: bold;
+    font-size: 4rem;
+    margin-bottom: 10px;
+}
+
+.numbers-text {
+    font-family: "M PLUS 1p", sans-serif;
+    font-size: 0.8rem;
+    
+}
+
+.body {
+    background-color:#FFF7F3;
+}
+
+ /*-------------------------- PRODUCTS -------------------------- */
+
+.submenu-products {
+    font-family: "M PLUS 1p", sans-serif;
+    font-size: 16px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.products {
+    height: 100vh;
+    background-color:#FFF7F3;
+
+    text-align: left;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.our-products-title {
+    font-family: "Forum", serif;
+    font-weight: 400;
+    font-size: 3rem;
+}
+
+.product-item {
+    border: 1px solid black;
+    padding: 1rem;
+    background-color: #FFF7F3;
+}
+
+
+/*-------------------------- GALLERY -------------------------- */
+
+.sub-header {
+    height: 30vh;
+    background-image: url(../Img/2IMG_background-gallery.png);
+    background-repeat: no-repeat;
+    
+
+    text-align: left;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+.text-overlay {
+    color: #FFF7F3;
+    font-family: "Forum", serif;
+    font-weight: 400;
+    font-size: 4rem;
+    margin-left: 50px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1 fr 1fr;
+    grid-template-areas: ;
+}
+
+.grid-container img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.titulos {
+    color:blueviolet;
+    font-family: "Forum", serif;
+    font-size: 40px;
+    font-weight: 500px;
+
+}
+
+.subtitulos {
+    color:rgb(19, 117, 159);
+    font-family: "M PLUS 1p", sans-serif;    
+
+}
+ 
+.textos-generales {
+    color: black;
+    font-family: "M PLUS 1p", sans-serif;
+    font-weight: 300;
+
+}
+
+.parrafo2 {
+    width: 600px;
+    height: auto;
+}
+
+.text-product1 {
+    background-color: beige;
+    width: 600px;
+    margin: 40px 40px 40px 40px;
+    padding: 20px 20px 20px 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    /*overflow: scroll;*/
+}
+
+.text-product2 {
+    background-color: beige;
+    width: 600px;
+    margin: 40px 40px 40px 40px;
+    padding: 20px 20px 20px 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.text-product3 {
+    background-color: beige;
+    width: 600px;
+    margin: 40px 40px 40px 40px;
+    padding: 20px 20px 20px 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+
+}
