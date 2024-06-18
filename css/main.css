@@ -244,74 +244,20 @@
 }
 
 
+/*-------------------------- CONTACT US-------------------------- */
 
+.contact-us {
+    width: 600px
+    
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.titulos {
-    color:blueviolet;
+.contact-us-title {
     font-family: "Forum", serif;
-    font-size: 40px;
-    font-weight: 500px;
-
+    font-size: 3rem;
+    font-weight: 400;
 }
 
-.subtitulos {
-    color:rgb(19, 117, 159);
-    font-family: "M PLUS 1p", sans-serif;    
-
-}
- 
-.textos-generales {
-    color: black;
+.contac-us-text {
     font-family: "M PLUS 1p", sans-serif;
-    font-weight: 300;
-
-}
-
-.parrafo2 {
-    width: 600px;
-    height: auto;
-}
-
-.text-product1 {
-    background-color: beige;
-    width: 600px;
-    margin: 40px 40px 40px 40px;
-    padding: 20px 20px 20px 20px;
-    border: 2px solid black;
-    border-radius: 20px;
-    /*overflow: scroll;*/
-}
-
-.text-product2 {
-    background-color: beige;
-    width: 600px;
-    margin: 40px 40px 40px 40px;
-    padding: 20px 20px 20px 20px;
-    border: 2px solid black;
-    border-radius: 20px;
-}
-
-.text-product3 {
-    background-color: beige;
-    width: 600px;
-    margin: 40px 40px 40px 40px;
-    padding: 20px 20px 20px 20px;
-    border: 2px solid black;
-    border-radius: 20px;
-
+    font-size: 16px;
 }
