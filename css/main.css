@@ -79,7 +79,6 @@
 /*-------------------------- ABOUT -------------------------- */
 
 .about {
-    background-color: #FFF7F3;
     height: 100% vh;
     display: grid;
     grid-template-columns: 50% 50%;
@@ -87,7 +86,6 @@
 
 .about-content {
     width: 80%;
-    background-color: #FFF7F3;
     padding: 2rem;
     /*backdrop-filter: blur(4px);*/
     padding: 100px;
@@ -114,7 +112,6 @@
 
 
 .brand {
-    background-color: #FFF0E2;
     height: 100% vh;
     margin: 50px;
     border: 1px solid black;
@@ -168,9 +165,6 @@
     
 }
 
-.body {
-    background-color:#FFF7F3;
-}
 
  /*-------------------------- PRODUCTS -------------------------- */
 
@@ -186,24 +180,35 @@
 
 .products {
     height: 100vh;
-    background-color:#FFF7F3;
-
     text-align: left;
 
     display: flex;
     flex-direction: column;
 }
 
-.our-products-title {
-    font-family: "Forum", serif;
-    font-weight: 400;
-    font-size: 3rem;
+.btn-primary {
+    font-family: "M PLUS 1p", sans-serif;
+    padding: 2rem;
 }
 
-.product-item {
-    border: 1px solid black;
+.card-title {
+    font-family: "Forum", serif;
+    font-weight: 400;
+    font-size: 30px;
     padding: 1rem;
-    background-color: #FFF7F3;
+}
+
+.card-text {
+    font-family: "M PLUS 1p", sans-serif;
+    font-size: 15px;
+    padding: 1rem;
+}
+
+.card {
+    width: 337px;
+    border: 1px solid black;
+    border-radius: 20px;
+    
 }
 
 
@@ -260,4 +265,9 @@
 .contac-us-text {
     font-family: "M PLUS 1p", sans-serif;
     font-size: 16px;
+}
+
+.mb-3 {
+    width: 600px;
+    
 }
