@@ -16,6 +16,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: fixed;
+    width: 100%;
 }
 
 .menu {
@@ -175,40 +177,56 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
 
+.product-item {
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #FFF7F3;
+}
+
+.our-products-title {
+    font-family: "Forum", serif;
+    font-weight: 400;
+    font-size: 4rem;
+    margin: 40px 40px 40px 0px;
+}
+
+.title-sub-product {
+    font-family: "Forum", serif;
+    margin: 3rem;
 }
 
 .products {
-    height: 100vh;
     text-align: left;
-
     display: flex;
     flex-direction: column;
 }
 
 .btn-primary {
     font-family: "M PLUS 1p", sans-serif;
-    padding: 2rem;
+    padding: 0,5rem;
+    background-color: #100f0f;
+    border-color: #100f0f;
 }
 
 .card-title {
     font-family: "Forum", serif;
     font-weight: 400;
     font-size: 30px;
-    padding: 1rem;
+    padding: 0px 0px 1px 2px;
 }
 
 .card-text {
     font-family: "M PLUS 1p", sans-serif;
     font-size: 15px;
-    padding: 1rem;
+    padding: 0px 0px 1px 2px;
 }
 
 .card {
-    width: 337px;
     border: 1px solid black;
     border-radius: 20px;
-    
 }
 
 
