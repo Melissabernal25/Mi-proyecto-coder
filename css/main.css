@@ -97,6 +97,11 @@
     /*border: 1px solid black;*/
 }
 
+.text-footer {
+    color: black;
+    font-family: "Forum", serif;
+}
+
 /*-------------------------- ABOUT -------------------------- */
 /*
 .about {
