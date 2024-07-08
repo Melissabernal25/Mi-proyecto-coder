@@ -4,7 +4,7 @@
 
 .navbar-nav .nav-link {
     color: #000000;
-    font-family: "M PLUS 1p", sans-serif;
+    font-family: $estilo-fuente-Mplus;
 
     .navbar-nav .nav-link:hover {
         color: #7f7f7f;
@@ -105,22 +105,28 @@
 
 /*-------------------------- ABOUT -------------------------- */
 
-.about-title {
-    font-family: $estilo-fuente-Forum;
-    font-weight: 400;
-    font-size: 6rem;
-    text-align: left;
 
+.sobre-nosotros {
+    margin-top: 60px;
+
+    .about-title {
+        font-family: $estilo-fuente-Forum;
+        font-weight: 400;
+        font-size: 6rem;
+    }
+    
     .about-text {
         font-family: $estilo-fuente-Mplus;
         text-align: left;
     }
-
+    
     .img-aboutus {
         max-width: 100%;
         height: auto;
     }
 }
+
+
 
 /*.col {
     margin: 10px;
@@ -132,7 +138,7 @@
     border-radius: 16px;
     margin: 60px 10px 60px 10px;
     padding: 20px;
-    background-color: #F8F9FA;
+    background-color: $color-terciario;
 
     .box-title {
         font-family: $estilo-fuente-Forum;
@@ -145,3 +151,89 @@
 }
 
 /*-------------------------- PRODUCTS -------------------------- */
+
+.sub-menu {
+    margin: 40px;
+    padding: 20px;
+    font-family: $estilo-fuente-Forum;
+    font-size: 2rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+    .btn-primary {
+        font-family: $estilo-fuente-Mplus;
+        background-color: $color-secundario;
+        border-color: $color-secundario;
+    }
+
+}
+
+.title-sub-product {
+    font-family: $estilo-fuente-Forum;
+    margin: 60px;
+    font-size: 2rem;
+}
+
+.card {
+    border: 1px solid black;
+
+    .card-title {
+        font-family: $estilo-fuente-Forum;
+        font-size: $size-card-title;
+        padding: 0px 0px 1px 2px;
+    }
+    
+    .card-text {
+        font-family: $estilo-fuente-Mplus;
+        font-size: $size-card-text;
+        padding: 0px 0px 1px 2px;
+    }
+
+    .btn-primary {
+        font-family: $estilo-fuente-Mplus;
+        background-color: $color-secundario;
+        border-color: $color-secundario;
+    }
+
+}
+
+
+/*-------------------------- GALLERY -------------------------- */
+
+.text-overlay {
+    color: $color-secundario;
+    font-family: $estilo-fuente-Forum;
+    font-size: 4rem;
+    margin: 60px;
+}
+
+
+/*-------------------------- CONTACT US-------------------------- */
+
+.form {
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 80px 20px 80px;
+}
+
+.contact-us {
+    background-color: $color-principal;
+    margin: 40px;
+    padding: 60px;
+
+    .contact-us-title {
+        font-family: "Forum", serif;
+        font-size: 3rem;
+        font-weight: 400;
+        text-align: center;
+    }
+    
+    .contact-us-text {
+        font-family: "M PLUS 1p", sans-serif;
+        font-size: 16px;
+        text-align: center;
+    }
+
+}
