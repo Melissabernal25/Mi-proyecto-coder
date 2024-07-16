@@ -177,6 +177,7 @@
     font-family: $estilo-fuente-Forum;
     margin: 60px;
     font-size: 2rem;
+
 }
 
 .card {
@@ -220,6 +221,16 @@
     justify-content: center;
     align-items: center;
     padding: 20px 80px 20px 80px;
+
+    .form-label {
+        font-family: $estilo-fuente-Mplus;
+    }
+
+    .btn-primary {
+        color: $color-secundario;
+        font-family: $estilo-fuente-Forum;
+    }
+
 }
 
 .contact-us {
@@ -241,3 +252,5 @@
     }
 
 }
+
+
